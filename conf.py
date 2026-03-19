@@ -33,6 +33,12 @@ myst_enable_extensions = [
     "fieldlist",     # 支援文件元數據欄位
 ]
 
+# Ensure the static path is set
+html_static_path = ['_static']
+
+# Add the custom CSS file
+def setup(app):
+    app.add_css_file('custom.css')
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
