@@ -1,0 +1,9 @@
+/* Change the sidebar color to dark blue */
+.wy-nav-side {
+    background: #003366 !important;
+}
+
+/* Change the body text size */
+body {
+    font-size: 18px;
+}
